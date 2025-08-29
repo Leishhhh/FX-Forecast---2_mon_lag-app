@@ -43,7 +43,7 @@ def preprocess_new_row(row, scaler, pca):
 
 
 # --- Streamlit UI ---
-st.title("FX - USD/INR Rate Predictor (2-Month Lag Features)")
+st.title("FX - USD/INR Rate Predictor (2-Month Lag Model)")
 
 # ✅ Correct GitHub raw link
 url = "https://raw.githubusercontent.com/Leishhhh/FX-Forecast---2_mon_lag-app/main/Two%20Month%20Model%20Data.csv"
