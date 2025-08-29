@@ -46,7 +46,7 @@ def preprocess_new_row(row, scaler, pca):
 st.title("FX - USD/INR Rate Predictor (2-Month Lag Features)")
 
 # ✅ Correct GitHub raw link
-url = "https://raw.githubusercontent.com/Leishhhh/FX-Forescast---2_mon_lag-app/main/Two%20Month%20Model%20Data.csv"
+url = "https://raw.githubusercontent.com/Leishhhh/FX-Forecast---2_mon_lag-app/main/Two%20Month%20Model%20Data.csv"
 
 @st.cache_data
 def load_data_from_github():
